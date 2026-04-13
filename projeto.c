@@ -50,35 +50,55 @@ int main(){
                 printf("\n---------- ");
                 printf("\n|Resposta: ");
                 resposta = lerinteiro();
-                if(resposta == 2) printf("\nCORRETO!\n");
+                while(resposta < 1 || resposta > 4){
+    				printf("Opção inválida. Digite um número entre 1 e 4: ");
+    				resposta = lerinteiro();
+				}
+				if(resposta == 2) printf("\nCORRETO!\n");
                 else printf("\nERRADO! Alternativa correta: 2\n");
                 printf("\n2) QUAL PAIS TEM MAIS FUSOS?\n");
                 printf("\n1) Russia\n2) EUA\n3) Franca\n4) China\n");
                 printf("\n---------- ");
                 printf("\n|Resposta: ");
                 resposta = lerinteiro();
-                if(resposta == 3) printf("\nCORRETO!\n");
+                while(resposta < 1 || resposta > 4){
+    				printf("Opção inválida. Digite um número entre 1 e 4: ");
+    				resposta = lerinteiro();
+				}
+				if(resposta == 3) printf("\nCORRETO!\n");
                 else printf("\nERRADO! Alternativa correta: 3\n");
                 printf("\n3) MAIOR DESERTO?\n");
                 printf("\n1) Saara\n2) Arabia\n3) Antartida\n4) Gobi\n");
                 printf("\n---------- ");
                 printf("\n|Resposta: ");
                 resposta = lerinteiro();
-                if(resposta == 3) printf("\nCORRETO!\n");
+                while(resposta < 1 || resposta > 4){
+    				printf("Opção inválida. Digite um número entre 1 e 4: ");
+    				resposta = lerinteiro();
+				}
+				if(resposta == 3) printf("\nCORRETO!\n");
                 else printf("\nERRADO! Alternativa correta: 3\n");
                 printf("\n4) LEIS DO MOVIMENTO PLANETARIO?\n");
                 printf("\n1) Kepler\n2) Brahe\n3) Newton\n4) Copernico\n");
                 printf("\n---------- ");
                 printf("\n|Resposta: ");
                 resposta = lerinteiro();
-                if(resposta == 1) printf("\nCORRETO!\n");
+                while(resposta < 1 || resposta > 4){
+    				printf("Opção inválida. Digite um número entre 1 e 4: ");
+    				resposta = lerinteiro();
+				}
+				if(resposta == 1) printf("\nCORRETO!\n");
                 else printf("\nERRADO! Alternativa correta: 1\n");
                 printf("\n5) QUEM ESCREVEU “O CONTRATO SOCIAL”?\n");
                 printf("\n1) Locke\n2) Rousseau\n3) Montesquieu\n4) Hobbes\n");
                 printf("\n---------- ");
                 printf("\n|Resposta: ");
                 resposta = lerinteiro();
-                if(resposta == 2) printf("\nCORRETO!\n");
+                while(resposta < 1 || resposta > 4){
+    				printf("Opção inválida. Digite um número entre 1 e 4: ");
+    				resposta = lerinteiro();
+				}
+				if(resposta == 2) printf("\nCORRETO!\n");
                 else printf("\nERRADO! Alternativa correta: 2\n");
                 printf("\n1) Jogar novamente\n2) Menu\nEscolha: ");
                 jogar = lerinteiro();
