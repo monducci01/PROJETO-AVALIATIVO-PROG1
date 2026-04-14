@@ -13,3 +13,5 @@ Este código tem como objetivo compartilhar a evolução dos discentes na matér
 -Cobra na Caixa: 2 players tentam encontrar o botão para ganhar o jogo; o player que encontra a cobra perde instantaneamente.
 
 -Gousmas War: 2 players lutam pela sobrevivência de suas gousmas, tentando atacar e dividir seus poderes de fúria. A gousma que passa do nível 5 de fúria perde.
+
+*IA foi utilizada apenas na formulação das perguntas e correção gramatical*
