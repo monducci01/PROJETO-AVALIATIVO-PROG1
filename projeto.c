@@ -30,7 +30,7 @@ int main(){
 		printf("\n|Resposta: ");
         escolhajogo = lerinteiro();
         if(escolhajogo == 4){
-            printf("\nSaindo do jogo...\n");
+            printf("\nSaindo do jogo\n");
             break;
         }
         if(escolhajogo < 1 || escolhajogo > 4){
@@ -43,7 +43,7 @@ int main(){
             while(jogar == 1){
                 int resposta;
                 printf("---------------------------------------------------------------\n");
-                printf("|AS SEGUINTES PERGUNTAS SERÃO BASEADAS EM CONHECIMENTOS GERAIS|\n");
+                printf("|AS SEGUINTES PERGUNTAS SERÃO BASEADAS EM CONHECIMENTOS GERAIS|\n"); 
                 printf("---------------------------------------------------------------\n");
                 printf("\n1) QUEM PINTOU “A Persistencia da Memoria”?\n");
                 printf("\n1) Pablo Picasso\n2) Salvador Dali\n3) Van Gogh\n4) Monet\n");
