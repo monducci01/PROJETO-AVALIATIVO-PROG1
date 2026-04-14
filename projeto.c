@@ -56,7 +56,7 @@ int main(){
 				}
 				if(resposta == 2) printf("\nCORRETO!\n");
                 else printf("\nERRADO! Alternativa correta: 2\n");
-                printf("\n2) QUAL PAIS TEM MAIS FUSOS?\n");
+                printf("\n2) QUAL PAÍS TEM MAIS FUSOS?\n");
                 printf("\n1) Russia\n2) EUA\n3) Franca\n4) China\n");
                 printf("\n---------- ");
                 printf("\n|Resposta: ");
