@@ -165,7 +165,7 @@ int main(){
                     }
                     caixas[caixaescolhida] = 1;
                     if(caixaescolhida == botao){
-                        printf("\n>>> BOTAO! VOCE VENCEU!\n");
+                        printf("\n BOTAO! VOCE VENCEU!\n");
                         if(turno == 0)
                             printf("Vencedor: %s\n", nomes[nomep1-1]);
                         else
@@ -173,7 +173,7 @@ int main(){
                         fim = 1;
                     }
                     else if(caixaescolhida == cobra){
-                        printf("\n>>> COBRA! VOCE PERDEU!\n");
+                        printf("\n COBRA! VOCE PERDEU!\n");
                         if(turno == 0)
                             printf("Perdedor: %s\n", nomes[nomep1-1]);
                         else
